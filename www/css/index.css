@@ -1,0 +1,408 @@
+@charset "UTF-8";
+.home {
+  font-family: '微软雅黑';
+  padding: 0;
+  margin: 0;
+  /*continer */
+  /**footer**/
+  /**end of footer**/ }
+  .home .head {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    background-color: #f0f2f9;
+    vertical-align: middle;
+    text-align: center; }
+    .home .head .h {
+      width: 1024px;
+      height: 70px;
+      line-height: 70px;
+      vertical-align: middle;
+      margin: 0 auto; }
+      .home .head .h .logo {
+        float: left;
+        margin-left: 10px;
+        width: 150px;
+        /*height: 50px;*/
+        line-height: 50px; }
+        .home .head .h .logo img {
+          padding-top: 10px;
+          width: 150px;
+          height: 50px; }
+      .home .head .h .menu {
+        float: right; }
+        .home .head .h .menu .item {
+          float: left;
+          cursor: pointer;
+          margin-right: 50px;
+          text-decoration: none;
+          font-size: 19px;
+          color: #333333; }
+        .home .head .h .menu .item:hover {
+          color: #0089f1; }
+        .home .head .h .menu .active {
+          color: #0089f1; }
+  .home .space {
+    width: 100%;
+    height: 70px; }
+  .home .continer {
+    /**滚动图片**/
+    /**服务对象**/
+    /**end of 服务对象**/
+    /**解决方案**/
+    /**end of 解决方案**/
+    /**关于泰立瑞**/
+    /**end of 关于泰立瑞**/
+    /**加入我们**/
+    /**end of 加入我们**/ }
+    .home .continer .image-view {
+      /* index_pic */ }
+      .home .continer .image-view * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+      .home .continer .image-view a,
+      .home .continer .image-view img {
+        border: 0; }
+      .home .continer .image-view #index_pic {
+        /*background: url('../img/loadsmall.gif') no-repeat center;*/
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        /*height: 600px;*/
+        overflow: hidden;
+        margin: 0 auto; }
+      .home .continer .image-view #index_pic ul {
+        z-index: 999;
+        bottom: 0px;
+        /*position: absolute;*/
+        text-align: left;
+        margin: 0 auto;
+        width: 285px;
+        height: 50px;
+        margin-top: -50px; }
+      .home .continer .image-view #index_pic ul li {
+        display: block;
+        font-weight: 900;
+        font-size: 12px;
+        float: left;
+        width: 70px;
+        color: #aaa;
+        position: relative;
+        height: 50px; }
+      .home .continer .image-view #index_pic li div {
+        margin-top: 5px;
+        display: none;
+        padding-left: 10px;
+        margin-left: 70px; }
+      .home .continer .image-view #index_pic li img {
+        border-right: #fff 1px solid;
+        border-top: #fff 1px solid;
+        filter: alpha(opacity=60);
+        left: 10px;
+        float: left;
+        border-left: #fff 1px solid;
+        width: 60px;
+        cursor: pointer;
+        margin-right: 4px;
+        border-bottom: #fff 1px solid;
+        position: absolute;
+        top: 5px;
+        height: 30px;
+        moz-opacity: 0.6;
+        /*width: 100%;*/
+        /*height: 100%;*/ }
+      .home .continer .image-view #back {
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+      .home .continer .image-view #back .gray {
+        filter: Gray(); }
+    .home .continer .service {
+      margin: 0 auto;
+      padding-top: 50px; }
+      .home .continer .service .heart {
+        margin: 0 auto;
+        background-image: url("../img/heart.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .home .continer .service .title {
+        text-align: center;
+        margin: 0 auto;
+        color: #0089f1;
+        font-size: 60px;
+        font-weight: bolder;
+        margin: 0 auto;
+        margin-top: 40px; }
+      .home .continer .service .s-title {
+        margin: 0 auto;
+        margin-top: 20px;
+        color: #0089f1;
+        text-align: center;
+        font-size: 24px; }
+      .home .continer .service .content {
+        margin: 0 auto;
+        max-width: 1024px;
+        margin-top: 40px;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 35px; }
+      .home .continer .service .obj {
+        margin: 0 auto;
+        margin-top: 80px;
+        background-image: url("../img/service_who.png");
+        width: 500px;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 120px; }
+    .home .continer .solution {
+      background-color: #737272;
+      margin: 0 auto;
+      padding-top: 50px; }
+      .home .continer .solution .heart {
+        margin: 0 auto;
+        background-image: url("../img/heart-cao.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .home .continer .solution .title {
+        text-align: center;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: bolder;
+        margin: 0 auto;
+        margin-top: 40px; }
+      .home .continer .solution .s-title {
+        margin: 0 auto;
+        margin-top: 20px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 24px; }
+      .home .continer .solution .content {
+        margin: 0 auto;
+        max-width: 1024px;
+        margin-top: 40px;
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px; }
+      .home .continer .solution .obj {
+        margin: 0 auto;
+        margin-top: 80px;
+        background-image: url("../img/cloud.png");
+        width: 1000px;
+        height: 470px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 120px; }
+    .home .continer .about {
+      margin: 0 auto;
+      padding-top: 100px;
+      padding-bottom: 100px; }
+      .home .continer .about .heart {
+        margin: 0 auto;
+        background-image: url("../img/hand.png");
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .home .continer .about .title {
+        text-align: center;
+        margin: 0 auto;
+        color: #0089f1;
+        font-size: 60px;
+        font-weight: bolder;
+        margin: 0 auto;
+        margin-top: 40px; }
+      .home .continer .about .s-title {
+        margin: 0 auto;
+        margin-top: 20px;
+        color: #0089f1;
+        text-align: center;
+        font-size: 24px; }
+      .home .continer .about .content {
+        margin: 0 auto;
+        max-width: 1024px;
+        margin-top: 40px;
+        font-size: 24px;
+        color: #000000;
+        text-align: left;
+        line-height: 35px;
+        padding-bottom: 100px; }
+        .home .continer .about .content a {
+          color: #000;
+          text-decoration: none; }
+      .home .continer .about .blue {
+        background-color: #0089f1;
+        height: 365px; }
+      .home .continer .about .info {
+        background-color: #fff;
+        padding-top: 40px;
+        width: 1024px;
+        margin: 0 auto;
+        /*margin-top: 50px;*/
+        margin-top: -343px;
+        box-shadow: 0 5px 10px #e4e4e4; }
+        .home .continer .about .info .news {
+          /*margin-top: -343px;*/
+          margin: 0 auto;
+          width: 924px;
+          border-bottom: 3px solid #e6e6e6;
+          overflow: hidden; }
+          .home .continer .about .info .news .new {
+            width: 100%; }
+            .home .continer .about .info .news .new .left {
+              float: left;
+              width: 500px;
+              height: 300px; }
+              .home .continer .about .info .news .new .left .n-line {
+                background-color: #0089f1;
+                height: 5px; }
+              .home .continer .about .info .news .new .left .n-title {
+                color: #000000;
+                font-size: 32px;
+                text-align: left;
+                padding-top: 20px; }
+              .home .continer .about .info .news .new .left .n-s-title {
+                font-size: 24px;
+                text-align: left;
+                padding-top: 40px; }
+              .home .continer .about .info .news .new .left .n-content {
+                color: #333333;
+                font-size: 18px;
+                text-align: left;
+                padding-top: 20px;
+                line-height: 25px;
+                height: 80px; }
+            .home .continer .about .info .news .new .right {
+              float: left;
+              width: 424px;
+              height: 250px;
+              overflow: hidden; }
+              .home .continer .about .info .news .new .right img {
+                width: 100%; }
+        .home .continer .about .info .switch {
+          position: relative;
+          margin-top: -40px;
+          margin-left: 50px;
+          z-index: 1000; }
+          .home .continer .about .info .switch .item {
+            cursor: pointer;
+            float: left;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            margin-left: 10px;
+            background-color: #bfbfbf; }
+          .home .continer .about .info .switch .current {
+            background-color: #0089f1; }
+          .home .continer .about .info .switch .other {
+            background-color: #bfbfbf; }
+        .home .continer .about .info .i-item {
+          padding-top: 50px;
+          margin: 0 auto;
+          width: 924px;
+          border-bottom: 3px solid #e6e6e6;
+          height: 170px; }
+          .home .continer .about .info .i-item .tag {
+            margin-top: 5px;
+            width: 5px;
+            height: 24px;
+            background-color: #0089f1;
+            float: left; }
+          .home .continer .about .info .i-item .i-title {
+            margin-left: 15px;
+            font-size: 24px;
+            font-weight: bolder;
+            color: #000; }
+          .home .continer .about .info .i-item .i-content {
+            line-height: 25px;
+            margin-top: 30px;
+            font-size: 20px;
+            color: #333333; }
+          .home .continer .about .info .i-item .org {
+            margin-top: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 500px;
+            background-image: url("../img/org.png"); }
+        .home .continer .about .info .org-h {
+          height: 630px;
+          border: 0; }
+    .home .continer .joinus {
+      width: 100%; }
+      .home .continer .joinus img {
+        width: 100%;
+        cursor: pointer; }
+  .home .footer {
+    background-color: #272636;
+    width: 100%;
+    height: 500px; }
+    .home .footer .qrcode {
+      padding-top: 60px;
+      padding-bottom: 80px;
+      margin: 0 auto;
+      width: 850px;
+      height: 150px; }
+      .home .footer .qrcode .qritem:first-of-type {
+        margin-left: 0; }
+      .home .footer .qrcode .qritem {
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin-left: 200px;
+        text-align: center; }
+        .home .footer .qrcode .qritem span {
+          color: #fff;
+          font-size: 12px; }
+        .home .footer .qrcode .qritem img {
+          width: 100%;
+          height: 100%; }
+      .home .footer .qrcode .item-left {
+        float: left; }
+      .home .footer .qrcode .item-right {
+        float: right; }
+    .home .footer .tel {
+      margin: 0 auto;
+      height: 50px;
+      width: 850px;
+      color: #eaf4fa;
+      font-size: 26px;
+      font-weight: bolder;
+      letter-spacing: 1px; }
+      .home .footer .tel a {
+        color: #eaf4fa;
+        text-decoration: none; }
+      .home .footer .tel .t-icon {
+        position: absolute;
+        float: left;
+        width: 26px;
+        height: 26px;
+        background-size: contain;
+        background-image: url("../img/phone.png"); }
+      .home .footer .tel .t-left {
+        margin-left: 30px;
+        float: left; }
+      .home .footer .tel .t-right {
+        float: right; }
+    .home .footer .f-line {
+      margin: 0 auto;
+      width: 850px;
+      border-bottom: 2px solid #86858e; }
+    .home .footer .copyright {
+      font-size: 13px;
+      padding-top: 20px;
+      width: 850px;
+      text-align: center;
+      margin: 0 auto;
+      color: #fff; }
+      .home .footer .copyright a {
+        color: #fff;
+        text-decoration: none; }
