@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo"><span class="green">智慧农业</span>宣传展示中心系统</div>
+            <div class="opts">
+                <button class="btn-pwd"><i class="iconfont icon-suo"></i>修改密码</button>
+                <button class="btn-logout"><i class="iconfont icon-kaiguan"></i>注销用户</button>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="left">
+            <div class="menu-item active">首页<i></i></div>
+            <div class="menu-item">加工管理<i></i></div>
+            <div class="menu-item">权限管理<i></i></div>
+            <div class="menu-item">系统配置<i></i></div>
+        </div>
+        <div class="middle">
+            <div class="search">
+                <input type="text" class="inp-search" placeholder="批次号搜索农产品">
+                <button class="btn-search"><i class="iconfont icon-sousuo"></i></button>
+            </div>
+            <div class="blocks">
+                <div class="block block1">
+                    <p class="title">网站访问量</p>
+                    <div class="chart1" id="chart1"></div>
+                </div>
+                <div class="block block2">
+                    <p class="title">停留时间</p>
+                    <div class="chart2" id="chart2"></div>
+                </div>
+                <div class="block block3">
+                    <p class="title">代办事项</p>
+                    <div class="num">0</div>
+                </div>
+            </div>
+            <div class="tables">
+                <div class="top">
+                    <div class="title">种植体系</div>
+                    <div class="sorts">
+                        <a href="">排序<i class="iconfont icon-rectangle52rectangle52-copy"></i></a>
+                    </div>
+                </div>
+                <div class="colums">
+                    <div class="col">基地名称</div>
+                    <div class="col">种植内容</div>
+                    <div class="col">种苗状态</div>
+                    <div class="col">时间</div>
+                </div>
+                <div class="row">
+                    <div class="col">大圣水芹</div>
+                    <div class="col">水芹</div>
+                    <div class="col">已种植112天</div>
+                    <div class="col">2017-01-01</div>
+                </div>
+                <div class="row two">
+                    <div class="col">大圣水芹</div>
+                    <div class="col">水芹</div>
+                    <div class="col">已种植112天</div>
+                    <div class="col">2017-01-01</div>
+                </div>
+            </div>
+            <div class="pages">
+                <a href="#" class="light">首页</a>
+                <a href="#">上一页</a>
+                <a href="#" class="light active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">下一页</a>
+                <a href="#" class="light">尾页</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="info">
+                <div class="avatar">
+                    <img src="./img/ava.png" alt="">
+                </div>
+                <div class="names">
+                    <p class="name">齐天大圣</p>
+                    <p class="pos">企业管理者</p>
+                </div>
+                <div class="setting">
+                    <i class="iconfont icon-icons22"></i>
+                </div>
+            </div>
+            <div class="news">
+                <div class="title">
+                    <span>园区动态</span>
+                    <div class="more">
+                        <a href="#">MORE></a>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <i class="point"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point two"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point two"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point two"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                    <li>
+                        <i class="point two"></i>
+                        <div class="txt">3好战是非一次</div>
+                        <div class="time">2014-01-01</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            版权所有：某某公司 技术支持：18283123
+        </div>
+    </footer>
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <script>
+    new Morris.Line({
+        // ID of the element in which to draw the chart.
+        element: 'chart1',
+        // Chart data records -- each entry in this array corresponds to a point on
+        // the chart.
+        data: [{
+            year: '2008',
+            value: 20
+        }, {
+            year: '2009',
+            value: 10
+        }, {
+            year: '2010',
+            value: 5
+        }, {
+            year: '2011',
+            value: 5
+        }, {
+            year: '2012',
+            value: 20
+        }],
+        // The name of the data record attribute that contains x-values.
+        xkey: 'year',
+        // A list of names of data record attributes that contain y-values.
+        ykeys: ['value'],
+        // Labels for the ykeys -- will be displayed when you hover over the
+        // chart.
+        labels: ['Value']
+    });
+    Morris.Donut({
+        element: 'chart2',
+        data: [{
+            label: "30分钟以上",
+            value: 12
+        }, {
+            label: "20分钟",
+            value: 30
+        }, {
+            label: "5分钟",
+            value: 20
+        }, {
+            label: "2分钟",
+            value: 20
+        }]
+    });
+    </script>
+</body>
+
+</html>

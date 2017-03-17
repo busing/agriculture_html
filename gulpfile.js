@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 gulp.task('connect', function () {
     connect.server({
         // root: '/source/circleproject/circle/doc/html/',
-        port:9090,
+        port:8080,
         livereload: true
     });
 });
@@ -17,7 +17,7 @@ gulp.task('allJs', function () {
         .pipe(gulp.dest("www/"));
 });
 gulp.task('sass',function () {
-    return gulp.src(['scss/*.scss','scss/*/*.scss'])
+    return gulp.src(['www/scss/*.scss','www/scss/*/*.scss'])
         .pipe(sass().on('error', sass.logError))
         // .pipe(concat("css.css"))
         .pipe(gulp.dest("www/css/"));
@@ -28,7 +28,7 @@ gulp.task('reload', ['allJs','sass'], function () {
 })
 
 gulp.task('watch', function () {
-    gulp.watch(['scss/*.scss','scss/*/*.scss', 'www/*.html', 'www/js/*.js', 'www/directive/*.*', 'www/views/*/*.html','www/views/*/*.js'], ['reload']);
+    gulp.watch(['www/scss/*.scss','www/scss/*/*.scss', 'www/*.html', 'www/js/*.js', 'www/directive/*.*', 'www/views/*/*.html','www/views/*/*.js'], ['reload']);
     // gulp.watch(['www/index.html'], ['reload']);
 
 });
@@ -65,7 +65,7 @@ gulp.task('source',['sass','allJs'],function(){
     gulp.src([
         'www/*/*.+(css|js|png|jpg|eot|svg|ttf|woff|woff2|html|htm)',
         'www/all.js',
-        'www/index.html',
+        'www/*.html',
         '!www/js/*.js',
         '!www/js/*.js',
         '!www/app.js'

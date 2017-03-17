@@ -1,0 +1,121 @@
+.header {
+  margin: 0 auto;
+  width: 1120px; }
+
+.header img {
+  width: 100%; }
+
+.content {
+  width: 1120px;
+  margin: 0 20px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -560px;
+  margin-bottom: 80px; }
+
+.content .goods {
+  float: left;
+  width: 900px;
+  margin-top: 30px; }
+
+.content .goods .item {
+  cursor: pointer;
+  font-size: 13px;
+  width: 290px;
+  height: 360px;
+  border: 1px solid #f3a739;
+  border-radius: 3px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 20px; }
+
+.content .goods .item .gimg {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto; }
+
+.content .goods .item img {
+  width: 250px;
+  height: 200px; }
+
+.content .goods .item .title {
+  width: 270px;
+  margin: 0 auto;
+  height: 23px;
+  line-height: 23px; }
+
+.content .goods .item .line {
+  width: 270px;
+  margin: 0 auto;
+  border-top: 1px solid grey; }
+
+.content .goods .item .bottom {
+  height: 40px;
+  padding-top: 20px;
+  width: 270px;
+  margin: 0 auto; }
+
+.content .goods .item .bottom .look {
+  float: right;
+  background-color: orange;
+  color: white;
+  width: 45px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer; }
+
+.content .right {
+  float: right;
+  margin-top: 50px; }
+
+.content .right .box {
+  width: 200px;
+  height: 160px;
+  border: 1px solid #f3a739;
+  text-align: center; }
+
+.content .right .box .stile {
+  margin-top: 13px; }
+
+.content .right .box .sinput {
+  height: 26px;
+  margin-top: 10px; }
+
+.content .right .box .sinput input {
+  width: 120px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: -15px; }
+
+.content .right .box .sinput .sbtn {
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  line-height: 26px; }
+
+.content .right .qrcode {
+  margin-top: 20px;
+  width: 200px;
+  height: 225px;
+  border: 1px solid #f3a739;
+  text-align: center; }
+
+.content .right .qrcode .stile {
+  margin-top: 13px;
+  color: #1ea21e; }
+
+.content .right .qrcode select {
+  margin-top: 10px;
+  width: 80px;
+  height: 25px; }
+
+.content .right .qrcode img {
+  display: block;
+  margin: 10px auto;
+  width: 100px; }
